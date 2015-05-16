@@ -1,4 +1,5 @@
 <style>
+  html, body { background-color: #F2F2F3; }
   #wrapper {
     margin: 0 auto;
     width: 330px;
@@ -13,6 +14,7 @@
   #note {
         font-family: "Futura Bold";
         text-align: center;
+        font-size: 1.5em;
     }
 
 @font-face {
@@ -23,6 +25,6 @@
 <div id="wrapper">
   <div id="note">FUTURE SITE OF</div>
   <div id="logo">
-    <img src="assets/3e-logo.png" width="250px" height="180px" />
+    <img src="<%= asset_path '3e-logo.png' %>" width="250px" height="180px" />
   </div>
 </div>
